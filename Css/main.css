@@ -394,12 +394,18 @@ margin: 30px 0;
     text-decoration: none; 
     transition: 0.3s;
 }
+@media (max-width: 768px){
+    .contact .contact-content h3 a{
+        font-size: 20px;
+    }
+}
 .contact .contact-content h3 a:hover{
     color: var(--secondary-color);
     display: block;
     scale: 1.05;
     
 }
+
 .contact .contact-content .cont{
     display: flex;
     align-items: center;
